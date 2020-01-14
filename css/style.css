@@ -1,0 +1,115 @@
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #dae3e4;
+    padding:30px 0 20px 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.header img{
+    width: 100%;
+}
+.banner{
+    margin-top:10px;
+}
+.banner img{ 
+    width: 100%;
+}
+.header .header_left{
+    justify-content: flex-start;
+    display: flex;
+    /* width: 250px; */
+    flex-shrink: 0
+}
+.header .header_right{
+    justify-content: flex-end;
+    display: flex;
+    /* width: 750px; */
+    margin-top: 20px;  
+}
+.responsive_menu{
+   display: none;
+}
+.header .header_right ul.menu{   
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;  
+}
+.header .header_right ul li+li{
+    margin-left: 75px;
+}
+.header .header_right ul li a{
+    color: #001297; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.header .header_right ul li a:hover{
+    color: red;
+}
+.body{
+    margin-top:66px;
+}
+.body .left{
+    justify-content: flex-start;
+    width: 495px;
+}
+.body .left_heading{   
+    font-weight: bold;
+    font-size: 30px;
+    color: #001297;
+}
+.body .left_content{
+    margin-top:40px;
+    width: 490px;
+    font-size: 12px;
+}
+.body .right{
+   justify-content: flex-end;
+    width: 460px;
+    background-color: #aedae2;
+}
+.body .right_heading{
+    font-weight: bold;
+    margin-left:37px;
+    margin-top:40px;
+    font-size: 24px;
+    color: #001297;
+}
+.body .menu{    
+    list-style-type: none; 
+    margin: 0; 
+    margin-top:40px;
+    margin-bottom:60px; 
+}
+.body .menu li a{
+    color: #001297;  
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.body .menu a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.footer{
+    margin-top: 55px;
+    padding:45px 0 45px 0;
+    background-color: #e1e1e1;
+}
+.footer .credits{
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 12px;
+}
